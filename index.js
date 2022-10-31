@@ -53,7 +53,7 @@ function drawSkillsTable(skills) {
     const btnCell = document.createElement("td");
     const deleteButton = document.createElement("button");
     deleteButton.setAttribute("class", "delete-button");
-    deleteButton.textContent = "delete";
+    deleteButton.textContent = "Delete skill";
 
     deleteButton.addEventListener("click", () => {
       alert("Skill deleted");

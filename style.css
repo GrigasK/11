@@ -73,7 +73,7 @@ tr:last-child td:last-child {
 }
 
 .delete-button:hover {
-  color: red;
+  color: pink;
 }
 
 .show-skill-container {
